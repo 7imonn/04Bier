@@ -1,0 +1,33 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    animation-name: backgroundcolor;
+    background: linear-gradient(60deg, rgba(119, 149, 176, 0.70), rgba(230, 180, 29, 0.70));
+    background-size: 100% 100%;
+    min-height: 100vh;
+    margin: 0;
+    top:0;
+    bottom: 0;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    /* background-size: 600% 600%; */
+    /* animation: Backgroundcolors 500s ease infinite; */
+}
+#landing{
+    min-height: 90vh;
+}
+#landing h1{
+    font-size: 5rem;
+    font-weight: 900;
+    text-align: center;
+    line-height: 1;
+    margin: 0 0 2rem 0;
+    letter-spacing: 0.075em;
+}
+#landing p{
+    font-size: 1.25rem;
+    font-style: italic;
+    margin-top: -0.25rem;
+    text-align: center
+}
