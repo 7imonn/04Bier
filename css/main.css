@@ -104,10 +104,10 @@ li.active {
     background-color: #ffffff;
 }
 li.active a {
-    color: #1e252d;
+    color: #7795b0;
 }
 li.active a:hover {
-    color: #18bfef !important;
+    color: #81416e !important;
 }
 #main{
     background-color: #ffffff;
