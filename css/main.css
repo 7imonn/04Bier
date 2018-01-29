@@ -94,6 +94,8 @@ li a{
     font-size: 0.8rem;
     outline: none;
     padding: 0 2rem;
+    text-decoration: none;
+    color: white;
 }
 li a:hover{
     color: inherit !important;
