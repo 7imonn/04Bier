@@ -4,7 +4,7 @@ html{
 }
 body{
     animation-name: backgroundcolor;
-    background: linear-gradient(60deg, rgba(119, 149, 176, 0.70), rgba(230, 180, 29, 0.70));
+    background: linear-gradient(60deg, rgba(184, 125, 59, 0.7), rgba(241, 189, 31, 0.801));
     background-size: 100% 100%;
     min-height: 100vh;
     margin: 0;
@@ -14,7 +14,7 @@ body{
     
 }
 #landing{
-    color: #775c0d;
+    color: #000000;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -22,14 +22,15 @@ body{
     position: relative;
     text-align: center;
     z-index: 1;
-    min-height: 80vh;
+    min-height: 90vh;
+
 }
 #landing h1{
     font-size: 5rem;
     font-weight: 800;
     text-align: center;
     line-height: 1;
-    margin: 0 0 5rem 0;
+    margin: 0 0 50rem 0;
     letter-spacing: 0.075em;
     position: absolute;
     bottom: 0;
