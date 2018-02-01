@@ -8,7 +8,7 @@ $(function() {
         $(this).addClass("active");
     });
     
-    $("#main").load("../home.html");
+    $("#main").load("../kpi.html");
     $("#Home").click(function(){
         $("#main").load("../home.html");
     });

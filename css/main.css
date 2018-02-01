@@ -69,7 +69,7 @@ nav{
     z-index: 2;
     position: relative;
     margin: 10vh auto 0 auto;
-    width: calc(100% - 4rem);
+    width: calc(100vw - 5vh);
     max-width: 72rem;
 }
 ul{
@@ -115,10 +115,10 @@ li.active a:hover {
     background-color: #ffffff;
     position: relative;
     margin: 0 auto;
-    width: calc(100% - 4rem);
+    width: calc(100vw - 5vw);
     max-width: 72rem;
     z-index: 2;
-    height: 1000px;
+    height: calc(100vh - 4rem);
 }
 ::-webkit-scrollbar {
     width: 7px;
