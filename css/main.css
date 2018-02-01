@@ -80,8 +80,13 @@ nav{
     overflow: hidden;
     z-index: 2;
     position: relative;
+<<<<<<< HEAD
     margin: 20vh auto 0 auto;
     width: calc(100% - 4rem);
+=======
+    margin: 10vh auto 0 auto;
+    width: calc(100vw - 5vw);
+>>>>>>> 53d1353df0212ac70b27f97a54bf898fe50ce9f5
     max-width: 72rem;
 }
 ul{
@@ -127,10 +132,14 @@ li.active a:hover {
     background-color: #ffffff;
     position: relative;
     margin: 0 auto;
-    width: calc(100% - 4rem);
+    width: calc(100vw - 5vw);
     max-width: 72rem;
     z-index: 2;
+<<<<<<< HEAD
     height: 80vh;
+=======
+    height: calc(100vh - 4rem);
+>>>>>>> 53d1353df0212ac70b27f97a54bf898fe50ce9f5
 }
 
 
