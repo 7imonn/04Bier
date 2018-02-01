@@ -69,7 +69,7 @@ nav{
     z-index: 2;
     position: relative;
     margin: 10vh auto 0 auto;
-    width: calc(100vw - 5vh);
+    width: calc(100vw - 5vw);
     max-width: 72rem;
 }
 ul{
