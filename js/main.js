@@ -7,6 +7,7 @@ $(function() {
         $('li').removeClass('active')
         $(this).addClass("active");
     });
+    
     $("#main").load("../home.html");
     $("#Home").click(function(){
         $("#main").load("../home.html");
