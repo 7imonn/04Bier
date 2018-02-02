@@ -43,8 +43,6 @@
     margin-top: 60px;
 }
 .fire {
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
     box-sizing: content-box;
     border: none;
     /* font: normal 80px/normal "Anton", Helvetica, sans-serif; */
