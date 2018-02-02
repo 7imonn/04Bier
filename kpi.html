@@ -3,41 +3,47 @@
 <script type="text/javascript" src="js\kpi.js"></script>
 
 
-<div id="clockdiv">
-    <h3>Z'nächstä Bier isch ih:</h3>
-    <div style="display:none">
-        <span class="days"></span>:
-        <!-- <div class="smalltext">Days</div> -->
+
+<div class="container">
+    <div class="row justify-content-md-center">
+        <div id="clockdiv" class="col">
+            <h3>Solang geits bis z nächstä Bier fertig isch:</h3>
+            <div style="display:none">
+                <span class="days"></span>:
+                <div class="smalltext">Days</div>
+            </div>
+            <div>
+                <span class="hours"></span>:
+                <!-- <div class="smalltext">Hours</div> -->
+            </div>
+            <div>
+                <span class="minutes"></span>:
+                <!-- <div class="smalltext">Minutes</div> -->
+            </div>
+            <div>
+                <span class="seconds"></span>
+                <!-- <div class="smalltext">Seconds</div> -->
+            </div>
+        </div>
     </div>
-    <div>
-        <span class="hours"></span>:
-        <!-- <div class="smalltext">Hours</div> -->
+    <div class="row kpi">
+        <div class="col-md-6">
+            <h3>So viu Grad si im Topf:</h3>
+            <span>60<span id="fire">&deg;</span></span>
+        </div>
+        <div class="col-md-6">
+            <h3>Insgeamt härgsteut:</h3>
+            <span>150l</span>
+        </div>
     </div>
-    <div>
-        <span class="minutes"></span>:
-        <!-- <div class="smalltext">Minutes</div> -->
-    </div>
-    <div>
-        <span class="seconds"></span>
-        <!-- <div class="smalltext">Seconds</div> -->
-    </div>
-    <p>fertig u steit scho gli zum gnuss bereit</p>
-</div>
-<div id="kpidiv">
-    <div>
-        <h3>So viu Grad si im Topf:</h3>
-        <span>60<span id="fire">&deg;</span></span>
-    </div>
-    <div>
-        <h3>Insgeamt härgsteut:</h3>
-        <span>150l</span>
-    </div>
-    <div>
-        <h3>So viu Promill heiemr vertielt:</h3>
-        <span>45&permil;</span>
-    </div>
-    <div>
-        <h3>Umfang vom Bierbuch 🙄:</h3>
-        <span>95cm</span>
+    <div class="row kpi">
+        <div class="col-md-6">
+            <h3>So viu Promill heiemr vertielt:</h3>
+            <span>45&permil;</span>
+        </div>
+        <div class="col-md-6">
+            <h3>Umfang vom Bierbuch 🙄:</h3>
+            <span>95cm</span>
+        </div>
     </div>
 </div>

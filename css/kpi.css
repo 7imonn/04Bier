@@ -33,14 +33,9 @@
     padding-top: 5px;
     font-size: 16px;
 } */
-#kpidiv{
-    margin: 60px auto;
-}
-#kpidiv div{
-    font-size: 150px;
-    width: calc(50vw - 5vw);
-    float: left;
-    margin-top: 60px;
+.kpi{
+    font-size: 140px;
+    margin-top: 30px;
 }
 .fire {
     box-sizing: content-box;
