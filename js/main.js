@@ -8,7 +8,7 @@ $(function() {
         $(this).addClass("active");
     });
     
-    $("#main").load("../rezepte.html");
+    $("#main").load("../home.html");
     $("#Home").click(function(){
         $("#main").load("../home.html");
     });
