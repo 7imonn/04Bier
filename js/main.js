@@ -15,8 +15,8 @@ $(function() {
     $("#Rezepte").click(function(){
         $("#main").load("../rezepte.html");
     });
-    $("#Kpi").click(function(){
-        $("#main").load("../kpi.html");
+    $("#Brauen").click(function(){
+        $("#main").load("../brauen.html");
     });
     $("#About").click(function(){
         $("#main").load("../about.html");
